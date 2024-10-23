@@ -1,0 +1,212 @@
+.JobsbgContainer {
+  width: 100%;
+  background-color: #000000;
+  padding: 20px;
+  height: 100 vh;
+  display: flex;
+}
+.searchcategoryContainer {
+  width: 30%;
+}
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+.profileimage {
+  width: 50px;
+}
+.nametext {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #6366f1;
+  margin: 10px;
+}
+.biotext {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #475569;
+  margin: 10px;
+}
+.employmenttype {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.inputcheckbox {
+  width: 15px;
+  height: 15px;
+}
+.employmentlabeltext {
+  font-family: 'roboto';
+  font-size: 15px;
+  margin-left: 20px;
+  color: #f8fafc;
+}
+.searchtype {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #f8fafc;
+}
+.employmenttypeContainer {
+  padding: 0px;
+}
+#hr {
+  border: 1px solid #475569;
+}
+.search-icon {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #f8fafc;
+}
+.JobsContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searchContainersm {
+  background-color: transparent;
+  border: 1px solid #64748b;
+  width: 1000%;
+  border-radius: 5px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+.searchContainerlg {
+  background-color: transparent;
+  border: 1px solid #64748b;
+  width: 60%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+.searchbutton {
+  background-color: #272727;
+  border: none;
+  padding: 10px;
+}
+
+.JobsListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.RetryButton {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border: none;
+}
+.profilefailureview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jobloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.jobfailureimage {
+  width: 500px;
+}
+.failureheading {
+  font-family: 'roboto';
+  font-size: 37px;
+  font-weight: bold;
+  color: #f8fafc;
+  margin: 10px;
+}
+.failureparagraph {
+  font-family: 'roboto';
+  font-size: 17px;
+  font-weight: normal;
+  color: #f8fafc;
+  margin: 10px;
+}
+.nojobsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 80vh;
+}
+.nojobsimage {
+  width: 500px;
+}
+.nojobsheading {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #f8fafc;
+  margin: 10px;
+}
+.nojobsparagraph {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: normal;
+  color: #f8fafc;
+  margin: 10px;
+}
+.searchInput {
+  background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  padding-left: 20px;
+  font-size: 18px;
+  margin: 0px;
+  height: 100%;
+  color: #f8fafc;
+  outline: none;
+}
+
+@media (min-width: 767px) {
+  .JobsbgContainer {
+    flex-direction: row;
+  }
+}
+@media (max-width: 767px) {
+  .JobsbgContainer {
+    flex-direction: column;
+  }
+  .searchcategoryContainer {
+    width: 100%;
+  }
+  .JobsContainer {
+    width: 100%;
+  }
+  .JobsListContainer {
+    padding: 0px;
+  }
+  .searchContainersm {
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .searchContainerlg {
+    display: none;
+  }
+}

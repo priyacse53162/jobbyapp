@@ -1,0 +1,27 @@
+.NotFoundContainer {
+  height: 100vh;
+  background-color: #000000;
+}
+.NotFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.NotFoundimage {
+  width: 400px;
+}
+.NotFoundheading {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #f8fafc;
+  margin: 10px;
+}
+.NotFoundparagraph {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: normal;
+  color: #f8fafc;
+  margin: 10px;
+}

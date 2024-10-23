@@ -1,0 +1,73 @@
+.navContainer {
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 0px;
+}
+.navitemsContainer {
+  display: flex;
+  width: 13%;
+  justify-content: space-between;
+}
+.navitem {
+  font-family: 'roboto';
+  font-size: 18px;
+  list-style-type: none;
+}
+.Logoutbutton {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.iconscontainer {
+  width: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navwebsitelogo {
+  width: 150px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #ffffff;
+}
+.iconscontainer {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
+.navicon {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #f8fafc;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .iconscontainer {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .Logoutbutton {
+    display: none;
+  }
+  .navitemsContainer {
+    display: none;
+  }
+  .navwebsitelogo {
+    width: 100px;
+  }
+}
